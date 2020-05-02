@@ -6,7 +6,6 @@ import './App.css'
 
 const App = () => {
     const [robotsList, setRobotsList] = useState([]);
-    const [displayedRobots, setDisplayedRobots] = useState([]);
     const [searchField, setSearchField] = useState('');
 
     useEffect(() => {
